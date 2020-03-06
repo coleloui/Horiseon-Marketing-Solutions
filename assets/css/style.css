@@ -69,34 +69,14 @@ p {
     margin-left: 25px;
 }
 
-.content-main {
+#content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.content {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.content img {
-    max-height: 200px;
-}
-
-.benefits-main {
+#all-benefits {
     margin-right: 20px;
-    align-items: flex-end;
-    display: inline-block;
     padding: 20px;
     clear: both;
     float: right;
@@ -106,7 +86,31 @@ p {
     background-color: #2589bd;
 }
 
-.benefit {
+#search-engine-optimization,
+#online-reputation-management,
+#social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+#search-engine-optimization h2,
+#online-reputation-management h2,
+#social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+#search-engine-optimization img,
+#online-reputation-management img,
+#social-media-marketing img {
+    max-height: 200px;
+}
+
+.benefits {
     margin-bottom: auto;
     color: #ffffff;
     height: 300px;
@@ -114,11 +118,12 @@ p {
     text-align: center;
 }
 
-.benefit h3 {
+.benefits h3 {
     margin-bottom: 10px auto;
+    text-align: center;
 }
 
-.benefit img {
+.benefits img {
     display: block;
     margin: 0px auto;
     max-width: 150px;
